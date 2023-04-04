@@ -29,6 +29,7 @@
 		378E792629DB297D0010F4EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E792529DB297D0010F4EA /* MapView.swift */; };
 		378E792829DB298D0010F4EA /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E792729DB298D0010F4EA /* GalleryView.swift */; };
 		378E792A29DB29990010F4EA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E792929DB29990010F4EA /* MainView.swift */; };
+		37CCC55329DC539B00FA013B /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCC55229DC539B00FA013B /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		378E792529DB297D0010F4EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		378E792729DB298D0010F4EA /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		378E792929DB29990010F4EA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		37CCC55229DC539B00FA013B /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		378E78F429DB22570010F4EA /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				37CCC55129DC538C00FA013B /* View */,
 				378E792129DB286B0010F4EA /* Info.plist */,
 				378E791829DB27520010F4EA /* Data */,
 				378E790329DB26CC0010F4EA /* Video */,
@@ -145,6 +148,14 @@
 				378E792929DB29990010F4EA /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		37CCC55129DC538C00FA013B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37CCC55229DC539B00FA013B /* CoverImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				378E78F829DB22570010F4EA /* ContentView.swift in Sources */,
 				378E792A29DB29990010F4EA /* MainView.swift in Sources */,
+				37CCC55329DC539B00FA013B /* CoverImageView.swift in Sources */,
 				378E792629DB297D0010F4EA /* MapView.swift in Sources */,
 				378E78F629DB22570010F4EA /* AfricaApp.swift in Sources */,
 				378E792429DB296C0010F4EA /* VideoListView.swift in Sources */,
